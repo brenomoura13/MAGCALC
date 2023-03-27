@@ -4,6 +4,11 @@ while True:
     while True:
         try:
             valor1 = int(input("\n🔢 Informe um número: "))
+            break
+        except ValueError:
+            print("Informe um número inteiro.")
+    while True:
+        try:
             valor2 = int(input("🔢 Informe outro número: "))
             break
         except ValueError:
